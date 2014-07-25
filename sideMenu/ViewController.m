@@ -17,13 +17,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    UIViewController *mainvc = [[UIStoryboard storyboardWithName:@"SlidingViews" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewController"];
+	[[mainvc view] addGestureRecognizer:[self panGesture]];
+	
+	[self setMainViewController:mainvc];
+	[self setLeftViewController:[[UIStoryboard storyboardWithName:@"SlidingViews" bundle:nil] instantiateViewControllerWithIdentifier:@"leftViewController"]];
+//	[self setRightViewController:[[UIStoryboard storyboardWithName:@"SlidingViews" bundle:nil] instantiateViewControllerWithIdentifier:@"rightViewController"]];
+//	
+//	[self setShowTopViewShadow:YES];
+//	[self setRightMainAnchorType:ADMainAnchorTypeResize];
+    NSLog(@"inside");
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

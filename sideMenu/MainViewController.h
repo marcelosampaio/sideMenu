@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  sideMenu
 //
 //  Created by Marcelo Sampaio on 7/25/14.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ADSlidingViewController.h"
 
-@interface ViewController : ADSlidingViewController
+@interface MainViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *menuOutlet;
 
 
 @end

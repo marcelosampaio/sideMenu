@@ -22,6 +22,9 @@
 		9C397EF01982C6C00022B77C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C397ECF1982C6BF0022B77C /* UIKit.framework */; };
 		9C397EF81982C6C00022B77C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C397EF61982C6C00022B77C /* InfoPlist.strings */; };
 		9C397EFA1982C6C00022B77C /* sideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397EF91982C6C00022B77C /* sideMenuTests.m */; };
+		9C397F061982C73C0022B77C /* ADSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397F051982C73C0022B77C /* ADSlidingViewController.m */; };
+		9C397F081982CA490022B77C /* SlidingViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C397F071982CA490022B77C /* SlidingViews.storyboard */; };
+		9C397F0B1982CB0C0022B77C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397F0A1982CB0C0022B77C /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		9C397EF51982C6C00022B77C /* sideMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sideMenuTests-Info.plist"; sourceTree = "<group>"; };
 		9C397EF71982C6C00022B77C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C397EF91982C6C00022B77C /* sideMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sideMenuTests.m; sourceTree = "<group>"; };
+		9C397F041982C73C0022B77C /* ADSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSlidingViewController.h; sourceTree = "<group>"; };
+		9C397F051982C73C0022B77C /* ADSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSlidingViewController.m; sourceTree = "<group>"; };
+		9C397F071982CA490022B77C /* SlidingViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SlidingViews.storyboard; sourceTree = "<group>"; };
+		9C397F091982CB0C0022B77C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9C397F0A1982CB0C0022B77C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,8 @@
 		9C397ED11982C6C00022B77C /* sideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				9C397F0C1982CB260022B77C /* Sliding */,
+				9C397F031982C7250022B77C /* ADSlidingViewController */,
 				9C397EDA1982C6C00022B77C /* AppDelegate.h */,
 				9C397EDB1982C6C00022B77C /* AppDelegate.m */,
 				9C397EDD1982C6C00022B77C /* Main_iPhone.storyboard */,
@@ -153,6 +163,25 @@
 				9C397EF61982C6C00022B77C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C397F031982C7250022B77C /* ADSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C397F041982C73C0022B77C /* ADSlidingViewController.h */,
+				9C397F051982C73C0022B77C /* ADSlidingViewController.m */,
+			);
+			name = ADSlidingViewController;
+			sourceTree = "<group>";
+		};
+		9C397F0C1982CB260022B77C /* Sliding */ = {
+			isa = PBXGroup;
+			children = (
+				9C397F071982CA490022B77C /* SlidingViews.storyboard */,
+				9C397F091982CB0C0022B77C /* MainViewController.h */,
+				9C397F0A1982CB0C0022B77C /* MainViewController.m */,
+			);
+			name = Sliding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +263,7 @@
 				9C397EE21982C6C00022B77C /* Main_iPad.storyboard in Resources */,
 				9C397EE71982C6C00022B77C /* Images.xcassets in Resources */,
 				9C397EDF1982C6C00022B77C /* Main_iPhone.storyboard in Resources */,
+				9C397F081982CA490022B77C /* SlidingViews.storyboard in Resources */,
 				9C397ED61982C6C00022B77C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +285,8 @@
 			files = (
 				9C397EE51982C6C00022B77C /* ViewController.m in Sources */,
 				9C397EDC1982C6C00022B77C /* AppDelegate.m in Sources */,
+				9C397F061982C73C0022B77C /* ADSlidingViewController.m in Sources */,
+				9C397F0B1982CB0C0022B77C /* MainViewController.m in Sources */,
 				9C397ED81982C6C00022B77C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
