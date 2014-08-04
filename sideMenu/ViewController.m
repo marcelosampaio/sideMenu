@@ -25,11 +25,11 @@
         storyBoardId=@"Main_iPhone";
     }
     
-    UIViewController *mainvc = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewController"];
+    UIViewController *mainvc = [[UIStoryboard storyboardWithName:storyBoardId bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewController"];
 	[[mainvc view] addGestureRecognizer:[self panGesture]];
 	
 	[self setMainViewController:mainvc];
-	[self setLeftViewController:[[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"leftViewController"]];
+	[self setLeftViewController:[[UIStoryboard storyboardWithName:storyBoardId bundle:nil] instantiateViewControllerWithIdentifier:@"leftViewController"]];
 //	[self setRightViewController:[[UIStoryboard storyboardWithName:@"SlidingViews" bundle:nil] instantiateViewControllerWithIdentifier:@"rightViewController"]];
 //	
 //	[self setShowTopViewShadow:YES];
