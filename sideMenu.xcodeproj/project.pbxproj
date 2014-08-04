@@ -23,7 +23,6 @@
 		9C397EF81982C6C00022B77C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C397EF61982C6C00022B77C /* InfoPlist.strings */; };
 		9C397EFA1982C6C00022B77C /* sideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397EF91982C6C00022B77C /* sideMenuTests.m */; };
 		9C397F061982C73C0022B77C /* ADSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397F051982C73C0022B77C /* ADSlidingViewController.m */; };
-		9C397F081982CA490022B77C /* SlidingViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C397F071982CA490022B77C /* SlidingViews.storyboard */; };
 		9C397F0B1982CB0C0022B77C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C397F0A1982CB0C0022B77C /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		9C397EF91982C6C00022B77C /* sideMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sideMenuTests.m; sourceTree = "<group>"; };
 		9C397F041982C73C0022B77C /* ADSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSlidingViewController.h; sourceTree = "<group>"; };
 		9C397F051982C73C0022B77C /* ADSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSlidingViewController.m; sourceTree = "<group>"; };
-		9C397F071982CA490022B77C /* SlidingViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SlidingViews.storyboard; sourceTree = "<group>"; };
 		9C397F091982CB0C0022B77C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9C397F0A1982CB0C0022B77C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,7 +175,6 @@
 		9C397F0C1982CB260022B77C /* Sliding */ = {
 			isa = PBXGroup;
 			children = (
-				9C397F071982CA490022B77C /* SlidingViews.storyboard */,
 				9C397F091982CB0C0022B77C /* MainViewController.h */,
 				9C397F0A1982CB0C0022B77C /* MainViewController.m */,
 			);
@@ -263,7 +260,6 @@
 				9C397EE21982C6C00022B77C /* Main_iPad.storyboard in Resources */,
 				9C397EE71982C6C00022B77C /* Images.xcassets in Resources */,
 				9C397EDF1982C6C00022B77C /* Main_iPhone.storyboard in Resources */,
-				9C397F081982CA490022B77C /* SlidingViews.storyboard in Resources */,
 				9C397ED61982C6C00022B77C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +498,7 @@
 				9C397EFF1982C6C00022B77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C397F001982C6C00022B77C /* Build configuration list for PBXNativeTarget "sideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +507,7 @@
 				9C397F021982C6C00022B77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,12 +30,14 @@
     [super viewDidLoad];
 
 }
+
 -(BOOL)prefersStatusBarHidden {
     return YES;
 }
 
 - (IBAction)menu:(id)sender {
     [[self slidingViewController] anchorTopViewTo:ADAnchorSideRight];
+    [self slidingViewController].showTopViewShadow=YES;
 //    self.slidingViewController.leftViewAnchorWidth=160;
 }
 

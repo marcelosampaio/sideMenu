@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "ADSlidingViewController.h"
 
+// Device Recognition
+#define IS_IPAD_DEVICE                      UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+
 @interface ViewController : ADSlidingViewController
 
 

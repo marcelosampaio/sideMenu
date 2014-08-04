@@ -64,7 +64,7 @@
 static BOOL loggingEnabled = YES;
 
 /* Default Values */
-static const CGFloat kADDefaultAnchorAmount = 160.0f; // = 280.0f;
+static const CGFloat kADDefaultAnchorAmount = 200.0f; // = 280.0f;
 
 static const BOOL kADDefaultMainViewAllowsInteraction = NO;
 
